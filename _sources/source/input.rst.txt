@@ -1,0 +1,20 @@
+.. rty documentation master file, created by
+   sphinx-quickstart on Thu Dec 30 10:16:47 2021.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Input files of package
+===============================
+
+Input files of this package is text file (.txt). When you want to use this package You need to prepare a text file in the following format:
+
+ * line 1: number n of tasks
+ * lines 2 - n+1: integer task times
+ * lines n+2, …, last line : direct precedence relations in form "i,j"
+
+An example of a properly formatted text file is shown below.
+
+.. figure:: /images/input.png
+
+
+
